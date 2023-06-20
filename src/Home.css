@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.suchi{
+    width: 500px;
+} 
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.row h1{
+    color: #4F4239;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.del h1{
+    color: #4F4239;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.design{
+    width: 60px;
+}
+.cent {
+    margin-top: 30px;
+}
+.cent p{
+    color: #4F4239;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.cent button{
+    width: 200px;
+   padding: 15px;
+   margin-top: 20px;
+   background-color: #4F4239;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   color: #fff;
+   cursor: pointer;
+}
+.cent button:hover{
+    background-color: rgb(1, 127, 1);
+}
+@media(max-width:450px){
+    section{
+       width: 100%;
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: flex-start;
+       align-items: flex-start;
+    }
+    .design{
+        width: 40px;
+        object-fit: contain;
+    }
+    .del{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+     .del h1{
+        color: #4F4239;
+        font-size: 35px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+     }
+    .suchi{
+        width: 280px;
+    }
+    .row{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .cent{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .cent p{
+        color: #4F4239;
+        font-size: 19px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+    }
+
+    .cent button{
+        background-color:#4F4239;
+        outline: none;
+        border: 1px solid #4F4239;
+        border-radius: 10px;
+        color: #fff;
+        width: 200px;
+        padding: 10px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .cent button:hover{
+      background-color: rgb(1, 127, 1);
+    }
+}

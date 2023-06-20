@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-top: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.img2{
+    width: 400px;
+}
+.img1{
+    width: 50px;
+}
+.about small{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 100;
+    color: darkorange;
+ }
+ .provide{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 10px;
+ }
+ .provide p{
+    color: #4F4239;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+ }
+ .h1{
+    color: #4F4239;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+ }
+span p{
+    color: #4F4239;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+@media(max-width:450px) {
+ section{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px;
+    padding-left:15px ;
+ }   
+ .img2{
+    width: 300px;
+ }
+ .provide{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 10px;
+ }
+ .provide p{
+    color: #4F4239;
+ }
+ .about small{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 100;
+    color: darkorange;
+ }
+ .provide p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+ }
+ .img1{
+    width: 40px;
+ }
+ section .h1{
+    color:  #4F4239;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+ }
+  span p{
+    color: #4F4239;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 400;
+}
+}
